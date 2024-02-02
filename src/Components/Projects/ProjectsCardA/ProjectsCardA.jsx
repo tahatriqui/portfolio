@@ -9,7 +9,7 @@ const ProjectsCardA = ({details}) => {
         <img src={details.img} alt="" />
         <h4 >Description : </h4>
         <div className='description'>{check?details.description?.slice(0,60):details.description}<button className='see-more' onClick={()=>{setChek(prev=>!prev)}} >{check?"...read more":" see less"}</button></div>
-        <button className='visit'><a target="_blank" href={details.link}> Visit the project </a></button>
+        <button className='visit'><a rel="noreferrer" target="_blank" href={details.link}> Visit the project </a></button>
         
     </div>
   )

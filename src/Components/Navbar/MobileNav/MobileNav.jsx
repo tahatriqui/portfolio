@@ -11,16 +11,16 @@ const MobileNav = ({isOpen,toggleMenu}) => {
             <img className='logo' src="img1.png" alt="" />
             <ul>
             <li>
-                <a href='#Home' className='menu-item'>Home</a>
+                <a rel="noreferrer" href='#Home' className='menu-item'>Home</a>
               </li>
             <li>
-                <a href='#skills' className='menu-item'>Skils</a>
+                <a rel="noreferrer" href='#skills' className='menu-item'>Skils</a>
             </li>
             <li>
-                <a href='#contactme' className='menu-item'>Contact me</a>
+                <a rel="noreferrer" href='#contactme' className='menu-item'>Contact me</a>
             </li>
             <li>
-                <a href='#Projects' className='menu-item'>Projects</a>
+                <a rel="noreferrer" href='#Projects' className='menu-item'>Projects</a>
             </li>
 
             
