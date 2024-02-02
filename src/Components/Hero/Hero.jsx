@@ -16,7 +16,7 @@ const Hero = () => {
                 <div className='tech-icon'>
                 <img src="logos/logo192.png" alt=""/>
                 </div>
-                <img  src='https://i.pinimg.com/564x/2f/cd/49/2fcd497522335c1d716284a181c4ea09.jpg' alt=''/>
+                <img  src='' alt=''/>
             </div>
 
             <div>
