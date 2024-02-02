@@ -1,0 +1,68 @@
+.project-card{
+    background: #130f2a;
+    border-radius: 0.65rem;
+    border:1.5px solid #6751b9;
+    padding:2.5rem;
+    margin:0 1rem;
+}
+
+.project-card h6{
+    font-size: 1.05rem;
+    font-weight: 600;
+    margin-bottom: 0.7rem;
+    text-align: center;
+}
+.project-card h4{
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 0.7rem;
+    margin-top: 0.7rem;
+}
+
+.project-card>button{
+     
+}
+
+.see-more{
+   color: rgb(252, 191, 101);
+    font-weight: 600;
+    border:none ;
+    background-color:  transparent ;
+    cursor: pointer;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.visit{
+    
+    background-color: #6751b9;
+    border: 1px solid #6751b9;
+    border-radius: 0.4rem;
+    margin-top: 0.8rem;
+    padding: 0.7rem;
+}
+
+ @media (max-width:768px) {
+    .project-card{
+        margin: 0;
+    }
+    .project-card h6{
+        font-size: 0.95rem;
+    }
+    .description{
+        font-size: 0.75rem;
+    }
+    .see-more{
+        font-size: 0.5rem;
+    }
+    .project-card h4{
+        font-size: 0.8rem;
+    }
+    .visit{
+        padding: 0.4rem;
+    }
+    .visit a{
+        font-size: 0.6rem;
+    }
+ }
