@@ -1,6 +1,9 @@
 import React from 'react'
 import "./ContactMe.css"
 import ContactInfoCard from './ContactInfoCard/ContactInfoCard'
+import github from '../../utils/ContactInfo/git.png'
+import linkdin from '../../utils/ContactInfo/in.png'
+import mail from '../../utils/ContactInfo/mail.png'
 
 
 const ContactMe = () => {
@@ -11,17 +14,17 @@ const ContactMe = () => {
         <div className='contact-content'>
             <div style={{flex:"1"}}>
                 <ContactInfoCard
-                iconUrl={'ContactInfo/mail.png'}
+                iconUrl={mail}
                 text={"taha.triqui.02@gmail.com"}
                 />
                 <ContactInfoCard
-               iconUrl ={'ContactInfo/git.png'}
+               iconUrl ={github}
                text ={"https://github.com/tahatriqui"}
                 />
             </div>
             <div style={{flex:"1"}}>
                 <ContactInfoCard
-               iconUrl ={'ContactInfo/in.png'}
+               iconUrl ={linkdin}
                text ={"https://www.linkedin.com/in/taha-triqui-1702a7282/"}
                 />
             </div>

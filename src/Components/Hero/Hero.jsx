@@ -1,6 +1,9 @@
 import React from 'react'
 import "./Hero.css"
-
+import js from './logos/js1.svg'
+import css from './logos/css.png'
+import html from './logos/html.png'
+import react from './logos/logo192.png'
 const Hero = () => {
   return (
     <section id='Home' className='hero-container'>
@@ -14,20 +17,20 @@ const Hero = () => {
         <div className='hero-img'>
             <div>
                 <div className='tech-icon'>
-                <img src="logos/logo192.png" alt=""/>
+                <img src={react} alt=""/>
                 </div>
-                <img  src='' alt=''/>
+                <img  src='https://images-ng.pixai.art/images/orig/19211530-ab44-4037-9183-ebf7f4bbab1e' alt=''/>
             </div>
 
             <div>
                 <div className='tech-icon'>
-                    <img  src='logos/html.png' alt=''/>
+                    <img  src={html} alt=''/>
                 </div>
                 <div className='tech-icon'>
-                    <img  src='logos/css.png' alt=''/>
+                    <img  src={css} alt=''/>
                 </div>
                 <div className='tech-icon'>
-                    <img  src='logos/js1.svg' alt=''/>
+                    <img  src={js} alt=''/>
                 </div>
             </div>
         </div>

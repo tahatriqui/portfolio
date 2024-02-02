@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import "./NavBar.css"
 import MobileNav from './MobileNav/MobileNav'
-
+import taha from './img1.png'
 const NavBar = () => {
     const [openMenu,setOpenMenu] = useState(false)
 
@@ -14,19 +14,19 @@ const NavBar = () => {
     <MobileNav isOpen={openMenu} toggleMenu={toggleMenu} />
         <nav className='nav-wrapper'>
             <div className='nav-content'>
-                <img className='logo' src='img1.png' alt='' />
+                <img className='logo' src={taha} alt='' />
                 <ul>
                     <li>
-                        <a  rel="noreferrer" href='#Home' className='menu-item'>Home</a>
+                        <a   href='#Home' className='menu-item'>Home</a>
                     </li>
                     <li>
-                        <a rel="noreferrer" href='#skills' className='menu-item'>Skills</a>
+                        <a  href='#skills' className='menu-item'>Skills</a>
                     </li>
                     <li>
-                        <a rel="noreferrer" href='#contactme' className='menu-item'>Contact me</a>
+                        <a  href='#contactme' className='menu-item'>Contact me</a>
                     </li>
                     <li>
-                        <a rel="noreferrer" href='#Projects' className='menu-item'>Projects</a>
+                        <a  href='#Projects' className='menu-item'>Projects</a>
                     </li>
                     <button className='contact-btn' onClick={()=>{}}>
                         Hire me

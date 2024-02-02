@@ -1,5 +1,6 @@
 import React from 'react'
 import "./MobileNav.css"
+import taha from '../img1.png'
 
 const MobileNav = ({isOpen,toggleMenu}) => {
   return (
@@ -8,19 +9,19 @@ const MobileNav = ({isOpen,toggleMenu}) => {
       className={`mobile-menu ${isOpen ?"active":""}`}
       onClick={toggleMenu}>
           <div className="mobile-menu-container">
-            <img className='logo' src="img1.png" alt="" />
+            <img className='logo' src={taha} alt="" />
             <ul>
             <li>
-                <a rel="noreferrer" href='#Home' className='menu-item'>Home</a>
+                <a  href='#Home' className='menu-item'>Home</a>
               </li>
             <li>
-                <a rel="noreferrer" href='#skills' className='menu-item'>Skils</a>
+                <a  href='#skills' className='menu-item'>Skils</a>
             </li>
             <li>
-                <a rel="noreferrer" href='#contactme' className='menu-item'>Contact me</a>
+                <a  href='#contactme' className='menu-item'>Contact me</a>
             </li>
             <li>
-                <a rel="noreferrer" href='#Projects' className='menu-item'>Projects</a>
+                <a  href='#Projects' className='menu-item'>Projects</a>
             </li>
 
             
