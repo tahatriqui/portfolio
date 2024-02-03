@@ -18,12 +18,11 @@ const MobileNav = ({isOpen,toggleMenu}) => {
                 <a  href='#skills' className='menu-item'>Skils</a>
             </li>
             <li>
-                <a  href='#contactme' className='menu-item'>Contact me</a>
-            </li>
-            <li>
                 <a  href='#Projects' className='menu-item'>Projects</a>
             </li>
-
+            <li>
+                <a  href='#contactme' className='menu-item'>Contact me</a>
+            </li>
             
             <button className='contact-btn' onClick={()=>{}}>
               Hire Me
