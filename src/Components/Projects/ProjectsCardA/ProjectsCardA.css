@@ -19,9 +19,6 @@
     margin-top: 0.7rem;
 }
 
-.project-card>button{
-     
-}
 
 .see-more{
    color: rgb(252, 191, 101);
@@ -46,12 +43,13 @@ img{
  @media (max-width:768px) {
     .project-card{
         margin: 0;
+        padding: 0.7rem;
     }
     .project-card h6{
         font-size: 0.95rem;
     }
     .description{
-        font-size: 0.75rem;
+        font-size: 0.65rem;
     }
     .see-more{
         font-size: 0.5rem;
@@ -60,7 +58,7 @@ img{
         font-size: 0.8rem;
     }
     .visit{
-        padding: 0.4rem;
+        padding: 0.35rem;
     }
     .visit a{
         font-size: 0.6rem;
