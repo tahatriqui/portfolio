@@ -19,7 +19,7 @@ const Hero = () => {
                 <div className='tech-icon'>
                 <img src={react} alt=""/>
                 </div>
-                <img  src='https://images-ng.pixai.art/images/orig/19211530-ab44-4037-9183-ebf7f4bbab1e' alt=''/>
+                <img  src='taha.png' alt=''/>
             </div>
 
             <div>
